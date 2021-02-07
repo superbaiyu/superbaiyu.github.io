@@ -324,6 +324,22 @@
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://example.com/2021/02/06/%E5%9B%BE%E7%89%87%E9%9B%86/",
+  owner: 'superbaiyu',
+  repo: 'superbaiyu.github.io',
+  oauth: {
+    client_id: '026d0daac6cbebab0554',
+    client_secret: '1d2ece11c125e0b56167a22b648959663a461f08',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
